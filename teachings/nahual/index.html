@@ -17,11 +17,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <style>
-        	body{margin:20px;}
+        	body{margin:104px; margin-top:20px;}
         	h1, h2, p, ul{margin: 0 auto; padding:10px; text-align:center; width:100%;}
         	ul{padding:0px;}
-        	ul li{list-style-type:none; margin:10px;}
+        	ul li{list-style-type:none; font-weight:bold;}
+            ul li p{padding:1px; font-weight:normal; text-align:left;}
         	a{text-decoration:none;}
+            a.btn-primary{width:100% !important;}
         </style>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -30,20 +32,101 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <h1>Nahual</h1>
-        <img style="display:block; margin-left:auto; margin-right:auto;" src="https://s-media-cache-ak0.pinimg.com/736x/cf/65/91/cf65917d354a83e02df8966a5e29137b.jpg"/>
+        <img style="display:block; margin-left:auto; margin-right:auto; width:25%;" src="https://s-media-cache-ak0.pinimg.com/736x/cf/65/91/cf65917d354a83e02df8966a5e29137b.jpg"/>
         <p>Nahualismo tradicional Tolteca Mexica
         <!-- Add your site or application content here -->
         <p>See the latest:</p>
 
         <h2>Blossoming - Dawn of the 6th Sun - Path of Quetzalcoatl</h2>
-        <ul>
-        	<li>
-        	<a href="https://lite-apps.github.io/apps/teachings/nahual/" target="_blank"></a>
-        	</li>
+        <ul class="dawn-of-the-sixth-sun">
+            <li>
+                <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#prophecy" aria-expanded="false" aria-controls="prophecy">
+                    The Prophecy
+                  </a>
+                </p>
+                <div class="collapse" id="prophecy">
+                  <div class="card card-block">
+                    Cuauhtemoc's Legacy and Prophecy
+                    <br/>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#black-tez" aria-expanded="false" aria-controls="black-tez">
+                    The Black Tezcatlipoca
+                  </a>
+                </p>
+                <div class="collapse" id="black-tez">
+                  <div class="card card-block">
+                    The Cleansing of the Shadow Exercise
+                    <br/>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#red-tez" aria-expanded="false" aria-controls="red-tez">
+                    The Red Tezcatlipoca
+                  </a>
+                </p>
+                <div class="collapse" id="red-tez">
+                  <div class="card card-block">
+                    Xipe Totec Essence/Energy Renewal Breathing Exercise
+                    <br/>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#blue-tez" aria-expanded="false" aria-controls="blue-tez">
+                    The Blue Tezcatlipoca
+                  </a>
+                </p>
+                <div class="collapse" id="blue-tez">
+                  <div class="card card-block">
+                    <ul>
+                    <li>Huitzilopochtli Exercise - Recovering Discipline & Developing the Gift of Prophecy</li>
+                    <br/>
+                    <li>Tezcatzoncatl Exercise - Recovering Lost Energy</li>
+                    </ul>
+                    <p>1. Before falling asleep assume the chacmool posture head towards the east and feet towards the west.<br/>2.
+                  </div>
+                </div>
+            </li>
+
+            <li>
+                <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#white-tez" aria-expanded="false" aria-controls="white-tez">
+                    The White Tezcatlipoca
+                  </a>
+                </p>
+                <div class="collapse" id="white-tez">
+                  <div class="card card-block">
+                    The Path of Quetzalcoatl
+                    <br/>
+                  </div>
+                </div>
+            </li>
+
         </ul>
 
         <h2>Dreaming - The Toltec Secret</h2>
-        <ul>
+        <ul class="toltec-secret">
+            <li>
+                <p>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#quetzaltzin" aria-expanded="false" aria-controls="quetzaltzin">
+                    Quetzaltzin
+                  </a>
+                </p>
+                <div class="collapse" id="quetzaltzin">
+                  <div class="card card-block">
+                    Becoming a Dreamer
+                    <br/>
+                  </div>
+                </div>
+            </li>
             <li>
                 <p>
                   <a class="btn btn-primary" data-toggle="collapse" href="#mexicatzin" aria-expanded="false" aria-controls="mexicatzin">
@@ -61,7 +144,7 @@
 
 
         <h2>Healing - Caves of Power</h2>
-        <ul>
+        <ul class="caves-of-power">
             <li>
                 <p>
                   <a class="btn btn-primary" data-toggle="collapse" href="#eight-bands" aria-expanded="false" aria-controls="eight-bands">
