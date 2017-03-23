@@ -29,7 +29,7 @@
         </style>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-  <body>
+    <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -40,30 +40,38 @@
 
         <!-- Add your site or application content here -->
         <p>See the latest:</p>
-    <div class="container_core"></div>
-    
-    <div class="container_sixth"></div>
 
-    <div id="custom_body"></div>
+        <div class="container_core"></div>
+        
+        <div class="container_sixth"></div>
 
-    <div class="teachers">
-    <h2>Teachers</h2>
+        <div class="container_dreaming"></div>
 
+        <div class="container_healing"></div>
 
-    </div>
+        <div class="containers_teachers"></div></div>
 
-    <script> 
+        <script> 
 
-    $(document).ready(function(){
+        $(document).ready(function(){
 
-        //jquery code goes here....        
-        $('.container_sixth').load('https://lite-apps.github.io/apps/teachings/nahual/sixth.html');
-                //jquery code goes here....        
-        $('.container_core').load('https://lite-apps.github.io/apps/teachings/nahual/core.html');
+            //core      
+            $('.container_core').load('https://lite-apps.github.io/apps/teachings/nahual/core.html');
 
-    });
-    </script>
- <footer style="margin-top:100px;"><a target="_blank" href="https://github.com/lite-apps/apps">Go to Github</a></footer>
+            //sixth-sun       
+            $('.container_sixth').load('https://lite-apps.github.io/apps/teachings/nahual/sixth.html');
+
+            //dreaming       
+            $('.container_dreaming').load('https://lite-apps.github.io/apps/teachings/nahual/dreaming.html');
+
+            //healing       
+            $('.container_healing').load('https://lite-apps.github.io/apps/teachings/nahual/healing.html');
+
+            //teachers       
+            $('.containers_teachers').load('https://lite-apps.github.io/apps/teachings/nahual/teachers.html');
+        });
+        </script>
+        <footer style="margin-top:100px;"><a target="_blank" href="https://github.com/lite-apps/apps">Go to Github</a></footer>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
