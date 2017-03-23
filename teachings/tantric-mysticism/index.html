@@ -1,6 +1,5 @@
 <!doctype html>
 <html class="no-js" lang="">
-<html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -18,31 +17,83 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <style>
-            body{margin:20px;}
+            body{margin:104px; margin-top:20px;}
             h1, h2, p, ul{margin: 0 auto; padding:10px; text-align:center; width:100%;}
+            h2{margin-top:20px;}
             ul{padding:0px;}
-            ul li{list-style-type:none; margin:10px;}
+            ul li{list-style-type:none; font-weight:bold;}
+            ul li p{padding:1px; font-weight:normal; text-align:left;}
             a{text-decoration:none;}
+            a.btn-primary{width:100% !important;}
         </style>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1>The Teachings</h1>
+        <h1>Tantric Buddhist Mysticism</h1>
+        <img style="display:block; margin-left:auto; margin-right:auto; " src="images/ram.jpg"/>
+        <p></p>
+
         <!-- Add your site or application content here -->
         <p>See the latest:</p>
 
-        <ul>
-        	<li>
-        	<a href="https://lite-apps.github.io/apps/teachings/nahual" target="_blank">Nahual</a>
-        	</li>
-            <li>
-            <a href="https://lite-apps.github.io/apps/teachings/tantric-mysticism" target="_blank">Tantric Buddhism</a>
-            </li>
-        </ul>
+        <h2>Rama Recapitulations by Samvara</h2>
+        <div class="container_recapitulations"></div>
+
+        <h2>Dharma Talks and Teachings by Samvara</h2>
+        <div class="container_dharma"></div>
+        
+        <h2>Enlightenment Workbook by Samvara</h2>
+        <div class="container_workbook"></div>
+
+        <h2>Mystic Scuba by Samvara</h2>
+        <div class="container_scuba"></div>
+
+        <h2>AgniKala</h2>
+        <div class="container_agnikala"></div>
+
+        <h2>Mandala</h2>
+        <div class="container_agnikala"></div>
+
+        <h2>Shiva</h2>
+        <div class="container_shiva"></div>
+
+        <h2>Mentors & Teachers</h2>
+        <div class="container_teachers"></div>
+
+        <script> 
+
+        $(document).ready(function(){
+
+            //rama recpapitulations      
+            $('.container_core').load('https://lite-apps.github.io/apps/teachings/tantric-mysticism/core/index.html');
+
+            //enlightenment workbook       
+            $('.container_workbook').load('https://lite-apps.github.io/apps/teachings/tantric-mysticism/workbook/index.html');
+
+            //dharma       
+            $('.container_dharma').load('https://lite-apps.github.io/apps/teachings/tantric-mysticism/dharma/index.html');
+
+            //mystic scuba       
+            $('.container_scuba').load('https://lite-apps.github.io/apps/teachings/tantric-mysticism/scuba/index.html');
+
+            //agnikala       
+            $('.container_agnikala').load('https://lite-apps.github.io/apps/teachings/tantric-mysticism/agnikala/index.html');
+            
+            //mandala       
+            $('.container_mandala').load('https://lite-apps.github.io/apps/teachings/tantric-mysticism/mandala/index.html');
+
+            //shiva       
+            $('.container_shiva').load('https://lite-apps.github.io/apps/teachings/tantric-mysticism/shiva/index.html');
+
+            //teachers       
+            $('.container_teachers').load('https://lite-apps.github.io/apps/teachings/tantric-mysticism/teachers/index.html');
+        });
+        </script>
+
+        <footer style="margin-top:100px;"><a target="_blank" href="https://github.com/lite-apps/apps/">Go to Github</a></footer>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
